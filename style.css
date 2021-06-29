@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    width: 100vw;
+    height: 90vh;
+    background-image: url(image/bgHeader.png);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
+.main-header a img{
+    width: 221px;
+    height: 53px;
+}
+
+.main-header{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw;
+    margin: 0 10px;
+}
+
+.main-header .navbar{
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 15vw;
+}
+
+.main-header .navbar li{
+    list-style: none;
+}
+
+.main-header .navbar li a{
+    text-decoration: none;
+    color: #2D2C64;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.main-header .menuBtn button{
+    padding: 8px 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(114.44deg, #6D07CB 0%, #EFADFF 100%);
+    cursor: pointer;
+}
+
+.content{
+    position: absolute;
+    left: 50%;
+    top: 22%;
+    width: 100%;
+    max-width: 900px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #2D2C64;
+    font-family: 'Poppins', sans-serif;
+}
+
+.userAc span{
+font-weight: 600;
+font-family: 'Poppins', sans-serif;
+}
